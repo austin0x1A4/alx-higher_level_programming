@@ -1,0 +1,3 @@
+1
+
+Only one integer object is created for the integer literal 1 on the first line. CPython implementation will cache integer objects in the range -5 to 256. So the same integer 1 object will be reused when assigning it to the variable a.
